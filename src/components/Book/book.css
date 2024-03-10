@@ -1,0 +1,85 @@
+/* book.css */
+
+.book {
+    background-color: #EBE7DB;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+}
+
+.book h1 {
+    text-align: center;
+    color: #E75639;
+    margin-bottom: 50px;
+}
+
+.step-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.step-card {
+    width: calc(20% - 20px);
+    height: 200px;
+    background-color: #ec755d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.step-card h2 {
+    margin-top: 0;
+}
+
+.step-card p {
+    margin-bottom: 10px;
+}
+
+.step-card button {
+    padding: 8px 16px;
+    background-color: #13336E;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.step-card button:hover {
+    background-color: #dadada;
+    color: black;
+}
+
+.extra-large-card {
+    width: 100%; /* Full width */
+    height: 250px;
+    text-align: center;
+    margin-top: 30px; /* Space between the row of cards and the extra large card */
+}
+
+.extra-card {
+    width: 100%; /* Adjust width as needed */
+    height: inherit;
+    background-color: #20355d;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.extra-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.extra-card p {
+    margin-bottom: 10px;
+}

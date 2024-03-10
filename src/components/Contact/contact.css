@@ -1,0 +1,105 @@
+/* contact.css */
+
+.contact {
+    background-color: #EBE7DB;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    height: 600px;
+    flex-direction: column; /* Added to make content stack vertically */
+    align-items: center; /* Added to center content horizontally */
+}
+
+.contact h1 {
+    margin-bottom: 50px; /* Added some bottom margin to the header */
+    color: #13336E;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex; /* Added to align socials and contact form horizontally */
+    width: 100%; /* Added to make content occupy full width */
+}
+
+.socials {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.socials h2 {
+    margin-bottom: 10px;
+}
+
+.socials .social-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.socials .logo-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.socials .logo-box svg {
+    font-size: 24px;
+}
+
+.socials .account-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1;
+}
+
+.contact-form {
+    width: 70%;
+}
+
+.contact-form .form-card {
+    background: linear-gradient(180deg, #F1A41D, #f3a114, #eca935);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #13336E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4674c9;
+    color: black;
+}

@@ -1,0 +1,85 @@
+.content1 {
+    background-image: url('../../assets/images/NEUST1.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .text-container {
+    color: white; /* Set text color */
+  }
+
+  .text-container h1 {
+    font-size:36px;
+    color: #E75639;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  
+  .text-container p {
+    font-size: 22px;
+    color: #13336E;
+    font-weight: 600;
+    margin-top: -250px;
+  }
+
+  .about {
+    position: absolute; /* Position about section absolutely within content1 */
+    height: 300px;
+    width: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: -149px; /* Adjust bottom margin as needed */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Center about section */
+    background-color: #F1A41D;
+    padding: 20px;
+  }
+
+  .about h1 {
+    font-size: 18px;
+    display: flex;
+    font-weight: 800;
+    color: #13336E;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    text-align: left;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #13336E;
+  }
+
+  .button_container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  
+  .button_container h1 {
+    display: inline-block;
+    background-color: transparent;
+    color: #13336E;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button_container h1:hover {
+    background-color: #EBE7DB;
+  }
+  

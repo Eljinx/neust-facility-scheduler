@@ -1,0 +1,53 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    /* background-color: transparent; Make the background transparent */
+    background-color: white;
+    z-index: 1000;
+    justify-content: center; /* Center the list items horizontally */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 70px; /* Increase the spacing between list items */
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #13336E;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    color: #E75639;
+    border-radius: 5px;
+}
+
+.navbar ul li a.active {
+    color: #E75639; /* Change the text color */
+    /* Add any other styles to highlight the active link */
+  }
+
+/* Center the navbar vertically */
+.navbar {
+    display: flex;
+    align-items: center;
+}

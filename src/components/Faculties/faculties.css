@@ -1,0 +1,94 @@
+/* faculties.css */
+
+.faculties {
+    background-color: #EBE7DB;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title {
+    margin-top: -70px;
+    color: #13336E;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.faculty-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.faculty-item {
+    width: calc(25% - 20px); /* 25% width with margin */
+    margin: 10px;
+    padding: 0; /* Remove padding to adjust for the image */
+    background-color: #F1A41D;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+}
+
+.faculty-item img {
+    width: 100%; /* Ensure all images fill their container */
+    height: 200px; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space below images */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.faculty-item:hover img {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+.faculty-item h2 {
+    margin: 0;
+    padding: 10px; /* Add padding to the faculty name */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    position: absolute;
+    bottom: -40px; /* Initially hidden below */
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: bottom 0.3s ease-out, opacity 0.3s ease-out; /* Smooth transition for hover effect */
+    opacity: 0; /* Initially hidden */
+}
+
+.faculty-item:hover h2 {
+    bottom: 0; /* Move up to show on hover */
+    opacity: 1; /* Show on hover */
+}
+
+.faculty-item p {
+    display: none; /* Remove the description */
+}
+
+.faculty-item button {
+    display: none;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #13336E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faculty-item:hover button {
+    display: block;
+}
+
+.faculty-item button:hover {
+    background-color: #13336E;
+}

@@ -1,0 +1,106 @@
+.content2 {
+    background-color: #EBE7DB;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.top_container {
+    height: auto;
+    width: auto;
+}
+
+.blue_container {
+    height: auto;
+    width: auto;
+}
+
+.follow_us {
+    position: absolute; /* Position about section absolutely within content1 */
+    height: 300px;
+    width: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: -449px; /* Adjust bottom margin as needed */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Center follow section */
+    background-color: #13336E;
+    padding: 20px;
+  }
+
+  .follow_container {
+    display: inline-block;
+    background-color: #EBE7DB;
+    color: #13336E;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .follow_us h1 {
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+
+  .follow_us p {
+    text-align: left;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #E75639;
+  }
+
+  .campus_container {
+    display: inline-block;
+    background-color: #EBE7DB;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .photo_container {
+    position: absolute; /* Position about section absolutely within content1 */
+    height: 450px;
+    width: 450px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: -598px; /* Adjust bottom margin as needed */
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%); /* Center follow section */
+}
+
+.photo_container img {
+    margin-top: 1px;
+    width: 100%; /* Match container's width */
+    height: 350px; /* Match container's height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+.learn_more {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #13336E;
+    border: 2px solid #13336E; /* Add line border */
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 155px;
+  }
+
+.learn_more h1 {
+    font-size: 12px;
+}

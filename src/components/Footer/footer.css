@@ -1,0 +1,13 @@
+.footer {
+    background: linear-gradient(180deg, #EBE7DB, #ffffff);    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center; /* Center align the content */
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .row {
+    margin-bottom: 10px; /* Adjust as needed */
+  }

@@ -1,0 +1,62 @@
+.upcoming {
+    background-color: #EBE7DB;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center; /* Center align the content */
+
+}
+
+.upcoming-h1 {
+    text-align: center;
+    color: #13336E;
+    font-size: 50px;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow events to wrap to the next line if needed */
+    justify-content: center; /* Center the events horizontally */
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  
+  .event {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically within each event */
+  }
+  
+  .event h1 {
+    margin-bottom: 10px; /* Add some space below the date */
+    color: #E75639;
+    font-size: 50px;
+  }
+
+  .event p {
+    color: #13336E;
+    font-weight: 700;
+  }
+
+  .view-full-schedule-btn {
+    margin-top: 20px; /* Add some space between the event list and the button */
+    padding: 10px 20px;
+    background-color: #13336E; /* Example button color */
+    color: #fff; /* Example text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-full-schedule-btn:hover {
+    background-color: #EBE7DB; /* Example button color on hover */
+    color: #13336E;
+    border: solid #E75639;
+  }
+  
+  .end {
+    margin-bottom: 10rem;
+  }
