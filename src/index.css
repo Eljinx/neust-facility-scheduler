@@ -19,6 +19,15 @@ body {
   box-sizing: border-box;
 }
 
+ /* Display text message */
+ .mobile-message {
+  display: none;
+}
+/* Hide tablet message */
+.tablet-message {
+  display: none;
+}
+
 /* Add more global styles as needed */
 
 /* Define styles for mobile view */
