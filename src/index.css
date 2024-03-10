@@ -38,6 +38,15 @@ body {
   }
 }
 
+ /* Display text message */
+ .mobile-message {
+  display: none;
+}
+/* Hide tablet message */
+.tablet-message {
+  display: none;
+}
+
 /* Define styles for tablet view */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Hide content */
